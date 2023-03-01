@@ -1,0 +1,6 @@
+[submodule "base"]
+	path = base
+	url = ../base-port-linux
+[submodule "common"]
+	path = common
+	url = ../common-port
