@@ -4,3 +4,15 @@
 [submodule "common"]
 	path = common
 	url = ../common-port
+[submodule "imaging"]
+	path = imaging
+	url = ../port-imaging
+	branch = main
+[submodule "user-generation1"]
+	path = user-generation1
+	url = ../../cpp-port/user-generation1
+	branch = main
+[submodule "audio"]
+	path = audio
+	url = ../port-audio
+	branch = main

@@ -14,3 +14,26 @@ if(NOT ${HAS_SYSTEM_UNAC})
     add_subdirectory(base/unac)
 
 endif()
+
+
+
+if(${USE_PORT_FREEIMAGE})
+
+    add_subdirectory(imaging)
+
+endif()
+
+
+
+if(${USE_REDSHIFT})
+
+    add_subdirectory(user-generation1/redshift)
+
+endif()
+
+
+
+
+
+
+
